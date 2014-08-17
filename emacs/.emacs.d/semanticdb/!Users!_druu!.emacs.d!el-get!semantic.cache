@@ -1,0 +1,922 @@
+;; Object el-get/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "el-get/"
+  :tables
+  (list
+    (semanticdb-table ".loaddefs.el"
+      :major-mode 'emacs-lisp-mode
+      :tags 
+        '( ("autopair-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [248 379])
+            ("autopair-global-mode" variable nil nil [381 698])
+            ("custom-autoload" code nil nil [700 763])
+            ("autopair-global-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [765 1170])
+            ("blank-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [1436 1751])
+            ("blank-toggle-options" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [1753 3464])
+            ("global-blank-toggle-options" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [3466 5189])
+            ("blank-cleanup" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [5191 6363])
+            ("blank-cleanup-region" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [6365 7037])
+            ("bm-toggle" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7311 7383])
+            ("bm-toggle-mouse" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7385 7501])
+            ("bm-lifo-previous" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7503 7663])
+            ("bm-lifo-next" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7665 7816])
+            ("bm-next" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7818 7863])
+            ("bm-common-next" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7865 7936])
+            ("bm-next-mouse" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [7938 8061])
+            ("bm-previous" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8063 8112])
+            ("bm-common-previous" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8114 8193])
+            ("bm-previous-mouse" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8195 8326])
+            ("color-theme-select" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [8796 9218])
+            ("color-theme-describe" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [9220 9500])
+            ("color-theme-install-at-mouse" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [9502 9732])
+            ("color-theme-install-at-point-for-current-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [9734 9967])
+            ("color-theme-print" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [9969 10682])
+            ("color-theme-analyze-defun" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [10684 10966])
+            ("color-theme-make-snapshot" function (:prototype-flag t) nil [10968 11174])
+            ("color-theme-compare" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [11176 11652])
+            ("color-theme-install" function (:prototype-flag t) nil [11654 13053])
+            ("color-theme-submit" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [13055 13171])
+            ("color-theme-initialize" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [13173 13319])
+            ("column-marker-1" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [13502 13571])
+            ("let" code nil nil [13958 14144])
+            ("doremi-themes-update-flag" variable (:user-visible-flag t) nil [14146 14495])
+            ("custom-autoload" code nil nil [14497 14567])
+            ("doremi-color-themes" variable (:user-visible-flag t) nil [14569 14674])
+            ("custom-autoload" code nil nil [14676 14740])
+            ("doremi-color-themes+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [14742 15577])
+            ("doremi-bookmarks+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [15579 15689])
+            ("doremi-buffers+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [15691 15867])
+            ("doremi-marks+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [15869 16139])
+            ("doremi-global-marks+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [16141 16425])
+            ("doremi-window-height+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [16427 16661])
+            ("doremi-window-width+" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [16663 16895])
+            ("let" code nil nil [17151 17293])
+            ("doremi-up-keys" variable
+               (:user-visible-flag t
+                :default-value (quote (up)))
+                nil [17295 17581])
+            ("custom-autoload" code nil nil [17583 17634])
+            ("doremi-down-keys" variable
+               (:user-visible-flag t
+                :default-value (quote (down)))
+                nil [17636 17923])
+            ("custom-autoload" code nil nil [17925 17978])
+            ("doremi-boost-up-keys" variable
+               (:user-visible-flag t
+                :default-value (quote (M-up)))
+                nil [17980 18220])
+            ("custom-autoload" code nil nil [18222 18279])
+            ("doremi-boost-down-keys" variable
+               (:user-visible-flag t
+                :default-value (quote (M-down)))
+                nil [18281 18526])
+            ("custom-autoload" code nil nil [18528 18587])
+            ("doremi-boost-scale-factor" variable
+               (:user-visible-flag t
+                :default-value 10)
+                nil [18589 18975])
+            ("custom-autoload" code nil nil [18977 19039])
+            ("ecb-activate" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [19206 19508])
+            ("ecb-minor-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [19510 19725])
+            ("ecb-byte-compile" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [19727 19992])
+            ("ecb-show-help" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [20143 20720])
+            ("ecb-running-xemacs" variable
+               (:constant-flag t
+                :default-value (featurep (quote xemacs)))
+                nil [20859 20907])
+            ("el-get-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21192 21286])
+            ("el-get-update-all" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21288 21413])
+            ("el-get-update-packages-of-type" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21415 21539])
+            ("el-get-self-update" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21541 21681])
+            ("el-get-cd" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21683 21782])
+            ("el-get-make-recipes" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21784 21985])
+            ("el-get-checksum" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [21987 22157])
+            ("el-get-list-packages" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [22360 22467])
+            ("exec-path-from-shell-copy-envs" function (:prototype-flag t) nil [22799 23160])
+            ("exec-path-from-shell-copy-env" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [23162 23487])
+            ("exec-path-from-shell-initialize" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [23489 23790])
+            ("flycheck-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [24088 24750])
+            ("global-flycheck-mode" variable nil nil [24752 25069])
+            ("custom-autoload" code nil nil [25071 25134])
+            ("global-flycheck-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [25136 25551])
+            ("flycheck-def-config-file-var" function (:prototype-flag t) nil [25553 26137])
+            ("put" code nil nil [26139 26199])
+            ("flycheck-def-option-var" function (:prototype-flag t) nil [26201 26785])
+            ("put" code nil nil [26787 26842])
+            ("put" code nil nil [26844 26893])
+            ("flycheck-info" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [26895 26983])
+            ("flycheck-define-error-level" function (:prototype-flag t) nil [26985 28575])
+            ("put" code nil nil [28577 28636])
+            ("git-commit-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [28828 29119])
+            ("dolist" code nil nil [29121 29302])
+            ("git-rebase-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [29494 29860])
+            ("add-to-list" code nil nil [29862 29935])
+            ("gitattributes-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [30139 30291])
+            ("dolist" code nil nil [30293 30454])
+            ("gitconfig-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [30642 30755])
+            ("dolist" code nil nil [30757 30916])
+            ("gitignore-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [31104 31217])
+            ("dolist" code nil nil [31219 31368])
+            ("magit-git-command" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [32903 33163])
+            ("magit-show-commit" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [33165 33282])
+            ("magit-status" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [33284 33948])
+            ("magit-stage-all" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [33950 34182])
+            ("magit-unstage-all" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [34184 34311])
+            ("magit-dired-jump" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [34313 34471])
+            ("magit-show" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [34473 34923])
+            ("magit-merge" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [34925 35181])
+            ("magit-merge-abort" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [35183 35278])
+            ("magit-checkout" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [35280 35570])
+            ("magit-create-branch" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [35572 35825])
+            ("magit-delete-branch" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [35827 36190])
+            ("magit-rename-branch" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36192 36396])
+            ("magit-add-remote" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36398 36529])
+            ("magit-remove-remote" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36531 36646])
+            ("magit-rename-remote" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36648 36776])
+            ("magit-interactive-rebase" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36778 36901])
+            ("magit-reset-head" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [36903 37254])
+            ("magit-reset-head-hard" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [37256 37475])
+            ("magit-reset-working-tree" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [37477 37744])
+            ("magit-fetch" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [37746 37826])
+            ("magit-fetch-current" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [37828 37965])
+            ("magit-remote-update" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [37967 38049])
+            ("magit-pull" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [38051 38620])
+            ("magit-push-tags" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [38622 38942])
+            ("magit-push" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [38944 39655])
+            ("magit-commit" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [39657 39845])
+            ("magit-commit-amend" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [39847 39956])
+            ("magit-commit-extend" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [39958 40322])
+            ("magit-commit-reword" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [40324 40757])
+            ("magit-commit-fixup" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [40759 41097])
+            ("magit-commit-squash" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [41099 41445])
+            ("magit-tag" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [41447 41649])
+            ("magit-delete-tag" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [41651 41773])
+            ("magit-stash" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [41775 42073])
+            ("magit-stash-snapshot" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42075 42275])
+            ("magit-submodule-update" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42277 42458])
+            ("magit-submodule-update-init" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42460 42591])
+            ("magit-submodule-init" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42593 42683])
+            ("magit-submodule-sync" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42685 42799])
+            ("magit-bisect-start" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [42801 43179])
+            ("magit-bisect-reset" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [43181 43311])
+            ("magit-bisect-good" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [43313 43510])
+            ("magit-bisect-bad" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [43512 43703])
+            ("magit-bisect-skip" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [43705 43928])
+            ("magit-bisect-run" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [43930 44055])
+            ("magit-log" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44057 44126])
+            ("magit-log-ranged" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44128 44194])
+            ("magit-log-long" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44196 44270])
+            ("magit-log-long-ranged" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44272 44343])
+            ("magit-file-log" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44345 44533])
+            ("magit-reflog" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44535 44689])
+            ("magit-reflog-head" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44691 44776])
+            ("magit-cherry" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44778 44916])
+            ("magit-save-index" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [44918 45033])
+            ("magit-interactive-resolve" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45035 45146])
+            ("magit-diff" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45148 45501])
+            ("magit-diff-working-tree" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45503 45637])
+            ("magit-diff-staged" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45639 45755])
+            ("magit-diff-unstaged" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45757 45880])
+            ("magit-diff-stash" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [45882 46136])
+            ("magit-wazzup" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [46138 46393])
+            ("magit-branch-manager" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [46395 46505])
+            ("magit-init" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [46507 46948])
+            ("magit-add-change-log-entry" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [46950 47287])
+            ("magit-add-change-log-entry-other-window" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [47289 47631])
+            ("magit-run-git-gui" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [47633 47739])
+            ("magit-run-git-gui-blame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [47741 48132])
+            ("magit-run-gitk" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [48134 48335])
+            ("magit-blame-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [48504 48617])
+            ("magit-key-mode-groups" variable (:default-value (quote ((dispatch (actions ("b" "Branching" magit-key-mode-popup-branching) ("B" "Bisecting" magit-key-mode-popup-bisecting) ("c" "Committing" magit-key-mode-popup-committing) ("d" "Diff worktree" magit-diff-working-tree) ("D" "Diff" magit-diff) ("f" "Fetching" magit-key-mode-popup-fetching) ("F" "Pulling" magit-key-mode-popup-pulling) ("g" "Refresh Buffers" magit-refresh-all) ("l" "Logging" magit-key-mode-popup-logging) ("m" "Merging" magit-key-mode-popup-merging) ("M" "Remoting" magit-key-mode-popup-remoting) ("P" "Pushing" magit-key-mode-popup-pushing) ("o" "Submoduling" magit-key-mode-popup-submodule) ("r" "Rewriting" magit-key-mode-popup-rewriting) ("R" "Rebasing" magit-rebase-step) ("s" "Show Status" magit-status) ("S" "Stage all" magit-stage-all) ("t" "Tagging" magit-key-mode-popup-tagging) ("U" "Unstage all" magit-unstage-all) ("v" "Show Commit" magit-show-commit) ("V" "Show File" magit-show) ("w" "Wazzup" magit-wazzup) ("X" "Reset worktree" magit-reset-working-tree) ("y" "Cherry" magit-cherry) ("z" "Stashing" magit-key-mode-popup-stashing) ("!" "Running" magit-key-mode-popup-running) ("$" "Show Process" magit-display-process))) (logging (man-page "git-log") (actions ("l" "Short" magit-log) ("L" "Long" magit-log-long) ("h" "Head Reflog" magit-reflog-head) ("f" "File log" magit-file-log) ("rl" "Ranged short" magit-log-ranged) ("rL" "Ranged long" magit-log-long-ranged) ("rh" "Reflog" magit-reflog)) (switches ("-m" "Only merge commits" "--merges") ("-s" "No merge commits" "--no-merges") ("-do" "Date Order" "--date-order") ("-f" "First parent" "--first-parent") ("-i" "Case insensitive patterns" "-i") ("-pr" "Pickaxe regex" "--pickaxe-regex") ("-g" "Show Graph" "--graph") ("-n" "Name only" "--name-only") ("-am" "All match" "--all-match") ("-al" "All" "--all")) (arguments ("=r" "Relative" "--relative=" read-directory-name) ("=c" "Committer" "--committer=" read-from-minibuffer) ("=>" "Since" "--since=" read-from-minibuffer) ("=<" "Before" "--before=" read-from-minibuffer) ("=a" "Author" "--author=" read-from-minibuffer) ("=g" "Grep messages" "--grep=" read-from-minibuffer) ("=G" "Grep patches" "-G" read-from-minibuffer) ("=L" "Trace evolution of line range [long log only]" "-L" magit-read-file-trace) ("=s" "Pickaxe search" "-S" read-from-minibuffer) ("=b" "Branches" "--branches=" read-from-minibuffer) ("=R" "Remotes" "--remotes=" read-from-minibuffer))) (running (actions ("!" "Git Subcommand (from root)" magit-git-command-topdir) (":" "Git Subcommand (from pwd)" magit-git-command) ("g" "Git Gui" magit-run-git-gui) ("k" "Gitk" magit-run-gitk))) (fetching (man-page "git-fetch") (actions ("f" "Current" magit-fetch-current) ("a" "All" magit-remote-update) ("o" "Other" magit-fetch)) (switches ("-p" "Prune" "--prune"))) (pushing (man-page "git-push") (actions ("P" "Push" magit-push) ("t" "Push tags" magit-push-tags)) (switches ("-f" "Force" "--force") ("-d" "Dry run" "-n") ("-u" "Set upstream" "-u"))) (pulling (man-page "git-pull") (actions ("F" "Pull" magit-pull)) (switches ("-f" "Force" "--force") ("-r" "Rebase" "--rebase"))) (branching (man-page "git-branch") (actions ("v" "Branch manager" magit-branch-manager) ("b" "Checkout" magit-checkout) ("c" "Create" magit-create-branch) ("r" "Rename" magit-rename-branch) ("k" "Delete" magit-delete-branch)) (switches ("-t" "Set upstream configuration" "--track") ("-m" "Merged to HEAD" "--merged") ("-M" "Merged to master" "--merged=master") ("-n" "Not merged to HEAD" "--no-merged") ("-N" "Not merged to master" "--no-merged=master")) (arguments ("=c" "Contains" "--contains=" magit-read-rev-with-default) ("=m" "Merged" "--merged=" magit-read-rev-with-default) ("=n" "Not merged" "--no-merged=" magit-read-rev-with-default))) (remoting (man-page "git-remote") (actions ("v" "Remote manager" magit-branch-manager) ("a" "Add" magit-add-remote) ("r" "Rename" magit-rename-remote) ("k" "Remove" magit-remove-remote))) (tagging (man-page "git-tag") (actions ("t" "Create" magit-tag) ("k" "Delete" magit-delete-tag)) (switches ("-a" "Annotate" "--annotate") ("-f" "Force" "--force") ("-s" "Sign" "--sign"))) (stashing (man-page "git-stash") (actions ("v" "View" magit-diff-stash) ("z" "Save" magit-stash) ("s" "Snapshot" magit-stash-snapshot) ("a" "Apply" magit-stash-apply) ("p" "Pop" magit-stash-pop) ("k" "Drop" magit-stash-drop)) (switches ("-k" "Keep index" "--keep-index") ("-u" "Include untracked files" "--include-untracked") ("-a" "Include all files" "--all"))) (committing (man-page "git-commit") (actions ("c" "Commit" magit-commit) ("a" "Amend" magit-commit-amend) ("e" "Extend" magit-commit-extend) ("r" "Reword" magit-commit-reword) ("f" "Fixup" magit-commit-fixup) ("s" "Squash" magit-commit-squash)) (switches ("-a" "Stage all modified and deleted files" "--all") ("-e" "Allow empty commit" "--allow-empty") ("-v" "Show diff of changes to be committed" "--verbose") ("-n" "Bypass git hooks" "--no-verify") ("-s" "Add Signed-off-by line" "--signoff") ("-R" "Claim authorship and reset author date" "--reset-author")) (arguments ("=A" "Override the author" "--author=" read-from-minibuffer) ("=S" "Sign using gpg" "--gpg-sign=" magit-read-gpg-secret-key))) (merging (man-page "git-merge") (actions ("m" "Merge" magit-merge) ("A" "Abort" magit-merge-abort)) (switches ("-ff" "Fast-forward only" "--ff-only") ("-nf" "No fast-forward" "--no-ff") ("-sq" "Squash" "--squash")) (arguments ("-st" "Strategy" "--strategy=" read-from-minibuffer))) (rewriting (actions ("b" "Begin" magit-rewrite-start) ("s" "Stop" magit-rewrite-stop) ("a" "Abort" magit-rewrite-abort) ("f" "Finish" magit-rewrite-finish) ("d" "Diff pending" magit-rewrite-diff-pending) ("*" "Set unused" magit-rewrite-set-unused) ("." "Set used" magit-rewrite-set-used))) (apply-mailbox (man-page "git-am") (actions ("J" "Apply Mailbox" magit-apply-mailbox)) (switches ("-s" "add a Signed-off-by line to the commit message" "--signoff") ("-3" "allow fall back on 3way merging if needed" "--3way") ("-k" "pass -k flag to git-mailinfo" "--keep") ("-c" "strip everything before a scissors line" "--scissors") ("-p" "pass it through git-apply" "-p") ("-r" "override error message when patch failure occurs" "--resolvemsg") ("-d" "lie about committer date" "--committer-date-is-author-date") ("-D" "use current timestamp for author date" "--ignore-date") ("-b" "pass -b flag to git-mailinfo" "--keep-non-patch")) (arguments ("=p" "format the patch(es) are in" "--patch-format=" read-from-minibuffer))) (submodule (man-page "git-submodule") (actions ("u" "Update" magit-submodule-update) ("b" "Both update and init" magit-submodule-update-init) ("i" "Init" magit-submodule-init) ("s" "Sync" magit-submodule-sync))) (bisecting (man-page "git-bisect") (actions ("b" "Bad" magit-bisect-bad) ("g" "Good" magit-bisect-good) ("k" "Skip" magit-bisect-skip) ("r" "Reset" magit-bisect-reset) ("s" "Start" magit-bisect-start) ("u" "Run" magit-bisect-run))) (diff-options (actions ("s" "Set" magit-set-diff-options) ("d" "Set default" magit-set-default-diff-options) ("c" "Save default" magit-save-default-diff-options) ("r" "Reset to default" magit-reset-diff-options) ("h" "Toggle Hunk Refinement" magit-diff-toggle-refine-hunk)) (switches ("-m" "Show smallest possible diff" "--minimal") ("-p" "Use patience diff algorithm" "--patience") ("-h" "Use histogram diff algorithm" "--histogram") ("-b" "Ignore whitespace changes" "--ignore-space-change") ("-w" "Ignore all whitespace" "--ignore-all-space") ("-W" "Show surrounding functions" "--function-context")))))) nil [48780 56448])
+            ("mapc" code nil nil [56450 56643])
+            ("magit-stgit-refresh" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [56960 57067])
+            ("magit-stgit-repair" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [57069 57282])
+            ("magit-stgit-rebase" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [57284 57380])
+            ("magit-stgit-discard" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [57382 57479])
+            ("magit-stgit-goto" function (:prototype-flag t) nil [57481 57608])
+            ("magit-stgit-show" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [57610 57709])
+            ("magit-stgit-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [57711 57814])
+            ("turn-on-magit-stgit" function (:prototype-flag t) nil [57816 57930])
+            ("custom-add-option" code nil nil [57932 57987])
+            ("magit-svn-find-rev" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58331 58457])
+            ("magit-svn-create-branch" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58459 58558])
+            ("magit-svn-create-tag" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58560 58653])
+            ("magit-svn-rebase" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58655 58738])
+            ("magit-svn-dcommit" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58740 58825])
+            ("magit-svn-remote-update" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58827 58916])
+            ("magit-svn-fetch-externals" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [58918 59128])
+            ("magit-svn-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [59130 59227])
+            ("turn-on-magit-svn" function (:prototype-flag t) nil [59229 59337])
+            ("custom-add-option" code nil nil [59339 59392])
+            ("magit-topgit-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [59586 59692])
+            ("turn-on-magit-topgit" function (:prototype-flag t) nil [59694 59811])
+            ("custom-add-option" code nil nil [59813 59869])
+            ("magit-wip-save-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [60062 60347])
+            ("global-magit-wip-save-mode" variable nil nil [60349 60690])
+            ("custom-autoload" code nil nil [60692 60759])
+            ("global-magit-wip-save-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [60761 61211])
+            ("w32-maximize-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [61470 61579])
+            ("w32-restore-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [61581 61698])
+            ("x-maximize-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [61700 61828])
+            ("x-restore-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [61830 61956])
+            ("maximize-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [61958 62109])
+            ("restore-frame" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [62111 62244])
+            ("defalias" code nil nil [62246 62276])
+            ("paren-activate" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [62626 63582])
+            ("paren-deactivate" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [63584 63698])
+            ("paren-toggle-matching-paired-delimiter" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [63700 64110])
+            ("paren-toggle-matching-quoted-paren" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [64112 64507])
+            ("paren-toggle-open-paren-context" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [64509 64774])
+            ("paren-forward-sexp" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [64776 64946])
+            ("paren-backward-sexp" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [64948 65119])
+            ("mc/edit-lines" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [65381 65974])
+            ("mc/edit-ends-of-lines" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [65976 66120])
+            ("mc/edit-beginnings-of-lines" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [66122 66278])
+            ("mc/mark-next-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [67222 67484])
+            ("mc/mark-next-word-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [67486 67579])
+            ("mc/mark-next-symbol-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [67581 67676])
+            ("mc/mark-previous-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [67678 67948])
+            ("mc/mark-previous-word-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [67950 68047])
+            ("mc/mark-previous-symbol-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68049 68148])
+            ("mc/mark-next-lines" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68150 68234])
+            ("mc/mark-previous-lines" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68236 68324])
+            ("mc/unmark-next-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68326 68482])
+            ("mc/unmark-previous-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68484 68644])
+            ("mc/skip-to-next-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68646 68830])
+            ("mc/skip-to-previous-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [68832 69020])
+            ("mc/mark-all-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69022 69183])
+            ("mc/mark-all-words-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69185 69274])
+            ("mc/mark-all-symbols-like-this" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69276 69367])
+            ("mc/mark-all-in-region" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69369 69527])
+            ("mc/mark-all-in-region-regexp" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69529 69694])
+            ("mc/mark-more-like-this-extended" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [69696 70324])
+            ("mc/mark-all-like-this-dwim" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [70326 70585])
+            ("mc/mark-all-dwim" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [70587 70980])
+            ("mc/mark-all-like-this-in-defun" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [70982 71102])
+            ("mc/mark-all-words-like-this-in-defun" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [71104 71236])
+            ("mc/mark-all-symbols-like-this-in-defun" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [71238 71374])
+            ("mc/add-cursor-on-click" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [71376 71495])
+            ("mc/mark-sgml-tag-pair" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [71497 71628])
+            ("mc/mark-pop" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [71824 71977])
+            ("mc/insert-numbers" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [72255 72412])
+            ("mc/reverse-regions" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [72414 72504])
+            ("mc/sort-regions" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [72506 72593])
+            ("set-rectangular-region-anchor" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [72851 73147])
+            ("let" code nil nil [73332 73476])
+            ("php-extra-constants" variable (:default-value (quote nil)) nil [73478 73571])
+            ("custom-autoload" code nil nil [73573 73633])
+            ("add-to-list" code nil nil [73635 73695])
+            ("php-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [73697 73805])
+            ("dolist" code nil nil [73807 73938])
+            ("pkg-info-library-original-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [74297 74970])
+            ("pkg-info-library-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [74972 75461])
+            ("pkg-info-defining-library-original-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [75463 76180])
+            ("pkg-info-defining-library-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [76182 76727])
+            ("pkg-info-package-version" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [76729 76988])
+            ("pkg-info-version-info" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [76990 77821])
+            ("pyflakes" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [77981 78039])
+            ("pymacs-load" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [78263 78743])
+            ("pymacs-autoload" function (:prototype-flag t) nil [78745 79270])
+            ("pymacs-eval" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [79272 79392])
+            ("pymacs-exec" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [79394 79586])
+            ("pymacs-call" function (:prototype-flag t) nil [79588 79966])
+            ("pymacs-apply" function (:prototype-flag t) nil [79968 80323])
+            ("define-key" code nil nil [80622 80665])
+            ("define-key" code nil nil [80667 80714])
+            ("define-key" code nil nil [80716 80774])
+            ("define-key" code nil nil [80776 80822])
+            ("define-key" code nil nil [80824 80873])
+            ("define-key" code nil nil [80875 80937])
+            ("rm-example-picture-mode-bindings" function (:prototype-flag t) nil [80939 81088])
+            ("rm-set-mark" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [81090 81754])
+            ("rm-exchange-point-and-mark" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [81756 82107])
+            ("rm-kill-region" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [82109 82507])
+            ("rm-kill-ring-save" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [82509 82663])
+            ("rm-mouse-drag-region" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [82665 82873])
+            ("web-mode" function
+               (:prototype-flag t
+                :user-visible-flag t)
+                nil [83034 83129])
+            (".loaddefs" package nil nil [85656 85676]))          
+      :file ".loaddefs.el"
+      :pointmax 85801
+      :fsize 85800
+      :lastmodtime '(21488 8632 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!_druu!.emacs.d!el-get!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

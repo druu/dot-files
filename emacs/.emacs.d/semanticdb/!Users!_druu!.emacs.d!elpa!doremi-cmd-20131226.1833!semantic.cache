@@ -1,0 +1,16 @@
+;; Object doremi-cmd-20131226.1833/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "doremi-cmd-20131226.1833/"
+  :tables
+  (list
+    (semanticdb-table "doremi-cmd-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "doremi-cmd-autoloads.el"
+      :pointmax 272
+      :fsize 3522
+      :lastmodtime '(21488 5980 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!_druu!.emacs.d!elpa!doremi-cmd-20131226.1833!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

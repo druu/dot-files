@@ -1,0 +1,16 @@
+;; Object blank-mode-20130824.1159/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "blank-mode-20130824.1159/"
+  :tables
+  (list
+    (semanticdb-table "blank-mode-autoloads.el"
+      :major-mode 'emacs-lisp-mode
+      :tags nil
+      :file "blank-mode-autoloads.el"
+      :pointmax 272
+      :fsize 6139
+      :lastmodtime '(21488 5763 0 0)
+      :unmatched-syntax nil))
+  :file "!Users!_druu!.emacs.d!elpa!blank-mode-20130824.1159!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

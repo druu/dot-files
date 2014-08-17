@@ -1,0 +1,127 @@
+;; Object widgets/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "widgets/"
+  :tables
+  (list
+    (semanticdb-table "browser.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("urwid" include nil nil [1 13])
+            ("basewidget" include nil nil [14 47])
+            ("char_range" function
+               (:documentation "Generates the characters from `c1` to `c2`, inclusive."
+                :arguments 
+                  ( ("c1" variable nil (reparse-symbol function_parameters) [65 67])
+                    ("c2" variable nil (reparse-symbol function_parameters) [69 71]))                  )
+                nil [50 244])
+            ("RepositoryTreeWidget" type
+               (:documentation " Display widget for leaf nodes "
+                :superclasses ("urwid.TreeWidget")
+                :members 
+                  ( ("get_display_text" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [360 364]))                          )
+                        (reparse-symbol indented_block_body) [339 418]))                  
+                :type "class")
+                nil [247 418])
+            ("RepositoryNode" type
+               (:documentation " Data storage object for leaf nodes "
+                :superclasses ("urwid.TreeNode")
+                :members 
+                  ( ("load_widget" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [525 529]))                          )
+                        (reparse-symbol indented_block_body) [509 574]))                  
+                :type "class")
+                nil [420 574])
+            ("RepositoryParentNode" type
+               (:documentation " Data storage object for interior/parent nodes "
+                :superclasses ("urwid.ParentNode")
+                :members 
+                  ( ("load_widget" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [700 704]))                          )
+                        (reparse-symbol indented_block_body) [684 749])
+                    ("load_child_keys" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [774 778]))                          )
+                        (reparse-symbol indented_block_body) [754 857])
+                    ("load_child_node" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [882 886])
+                            ("key" variable nil (reparse-symbol function_parameters) [888 891]))                          
+                        :documentation "Return either an RepositoryNode or RepositoryParentNode")
+                        (reparse-symbol indented_block_body) [862 1273]))                  
+                :type "class")
+                nil [576 1273])
+            ("RepositoryBrowser" type
+               (:superclasses ("BaseWidget")
+                :members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [1356 1397])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1406 1468])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1477 1503]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1330 1334])
+                            ("data" variable nil (reparse-symbol function_parameters) [1336 1340]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [1317 1504]))                  
+                :type "class")
+                nil [1275 1504])
+            ("Browser" type
+               (:superclasses ("BaseWidget")
+                :members 
+                  ( ("create" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1550 1554])
+                            ("data" variable nil (reparse-symbol function_parameters) [1556 1560]))                          )
+                        (reparse-symbol indented_block_body) [1539 1728])
+                    ("make_tree" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1748 1752])
+                            ("data" variable nil (reparse-symbol function_parameters) [1754 1758]))                          
+                        :documentation " Generate a tree out of a plain list  ")
+                        (reparse-symbol indented_block_body) [1734 2913])
+                    ("update" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [2932 2936])
+                            ("data" variable nil (reparse-symbol function_parameters) [2938 2942]))                          )
+                        (reparse-symbol indented_block_body) [2921 3039]))                  
+                :type "class")
+                nil [1507 3039]))          
+      :file "browser.py"
+      :pointmax 3040
+      :fsize 3039
+      :lastmodtime '(21285 43622 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "basewidget.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("BaseWidget" type
+               (:members 
+                  ( ("_view" variable nil (reparse-symbol indented_block_body) [23 35])
+                    ("get_widget" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [56 60]))                          )
+                        (reparse-symbol indented_block_body) [41 89]))                  
+                :type "class")
+                nil [1 89]))          
+      :file "basewidget.py"
+      :pointmax 89
+      :fsize 88
+      :lastmodtime '(21285 24824 0 0)
+      :unmatched-syntax nil))
+  :file "!Volumes!Legacy!OTHER_REPOS!brewtitude!brewtitude!widgets!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

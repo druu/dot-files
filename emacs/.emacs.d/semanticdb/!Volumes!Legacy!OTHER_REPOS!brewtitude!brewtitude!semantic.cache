@@ -1,0 +1,148 @@
+;; Object brewtitude/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "brewtitude/"
+  :tables
+  (list
+    (semanticdb-table "brewtitude.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("homebrew" include nil nil [1 30])
+            ("window" include nil nil [31 56])
+            ("Brewtitude" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [109 135])
+                            ("self" variable nil (reparse-symbol indented_block_body) [144 179]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [94 98]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [81 180])
+                    ("main" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [195 199]))                          )
+                        (reparse-symbol indented_block_body) [186 231]))                  
+                :type "class")
+                nil [58 231]))          
+      :file "brewtitude.py"
+      :pointmax 232
+      :fsize 231
+      :lastmodtime '(21285 43283 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "homebrew.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("subprocess" include nil nil [1 18])
+            ("cache" include nil nil [19 42])
+            ("Homebrew" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [93 151]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [78 82]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [65 152])
+                    ("load_installed" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [177 181]))                          )
+                        (reparse-symbol indented_block_body) [158 227])
+                    ("load_all" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [246 250]))                          )
+                        (reparse-symbol indented_block_body) [233 298])
+                    ("get_formulas" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [320 324])
+                            ("part" variable nil (reparse-symbol function_parameters) [326 330]))                          )
+                        (reparse-symbol indented_block_body) [303 531])
+                    ("update" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [549 553]))                          )
+                        (reparse-symbol indented_block_body) [538 715])
+                    ("_run_cmd" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [735 739])
+                            ("cmd" variable nil (reparse-symbol function_parameters) [741 744])
+                            ("split_lines" variable nil (reparse-symbol function_parameters) [746 757]))                          )
+                        (reparse-symbol indented_block_body) [722 1005])
+                    ("_split" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1022 1026])
+                            ("str" variable nil (reparse-symbol function_parameters) [1028 1031]))                          )
+                        (reparse-symbol indented_block_body) [1011 1079]))                  
+                :type "class")
+                nil [44 1079]))          
+      :file "homebrew.py"
+      :pointmax 1098
+      :fsize 1079
+      :lastmodtime '(21285 43238 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "window.py"
+      :major-mode 'python-mode
+      :tags 
+        '( ("urwid.raw_display" include nil nil [1 32])
+            ("urwid" include nil nil [1 32])
+            ("widgets" include nil nil [33 47])
+            ("Window" type
+               (:members 
+                  ( ("palette" variable nil (reparse-symbol indented_block_body) [69 563])
+                    ("footer_text" variable nil (reparse-symbol indented_block_body) [570 883])
+                    ("__init__" function
+                       (:suite 
+                          ( ("widgets" include nil (reparse-symbol indented_block_body) [928 965])
+                            ("self" variable nil (reparse-symbol indented_block_body) [975 1063])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1072 1199])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1209 1245])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1254 1289])
+                            ("self" code nil (reparse-symbol indented_block_body) [1298 1317]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [903 907])
+                            ("homebrew" variable nil (reparse-symbol function_parameters) [909 917]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [890 1319])
+                    ("main" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1336 1340]))                          )
+                        (reparse-symbol indented_block_body) [1327 1486])
+                    ("get_loop" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1507 1511]))                          )
+                        (reparse-symbol indented_block_body) [1494 1539])
+                    ("unhandled_input" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1565 1569])
+                            ("k" variable nil (reparse-symbol function_parameters) [1571 1572]))                          )
+                        (reparse-symbol indented_block_body) [1545 1697])
+                    ("_setup_frame" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1720 1724]))                          )
+                        (reparse-symbol indented_block_body) [1703 2314]))                  
+                :type "class")
+                nil [50 2314]))          
+      :file "window.py"
+      :pointmax 2428
+      :fsize 2427
+      :lastmodtime '(21285 43112 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "cache.py"
+      :file "cache.py"
+      :fsize 611
+      :lastmodtime '(21285 43252 0 0)))
+  :file "!Volumes!Legacy!OTHER_REPOS!brewtitude!brewtitude!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
