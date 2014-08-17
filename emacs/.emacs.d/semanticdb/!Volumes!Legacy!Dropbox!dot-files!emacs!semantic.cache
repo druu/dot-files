@@ -74,19 +74,19 @@
             ("global-set-key" code nil nil [5670 5724])
             ("setq" code nil nil [5774 5847])
             ("setq" code nil nil [5848 5929])
-            ("ecb" include nil nil [5958 5972])
-            ("setq" code nil nil [5974 6003])
-            ("ecb-activate" code nil nil [6032 6046])
-            ("multiple-cursors" include nil nil [6069 6096])
-            ("global-set-key" code nil nil [6097 6148])
-            ("global-set-key" code nil nil [6149 6208])
-            ("global-set-key" code nil nil [6209 6270])
-            ("global-set-key" code nil nil [6271 6326])
-            ("semantic-mode" code nil nil [6343 6360]))          
+            ("ecb" include nil nil [5939 5953])
+            ("setq" code nil nil [5955 5984])
+            ("ecb-activate" code nil nil [6013 6027])
+            ("multiple-cursors" include nil nil [6050 6077])
+            ("global-set-key" code nil nil [6078 6129])
+            ("global-set-key" code nil nil [6130 6189])
+            ("global-set-key" code nil nil [6190 6251])
+            ("global-set-key" code nil nil [6252 6307])
+            ("semantic-mode" code nil nil [6324 6341]))          
       :file ".emacs"
-      :pointmax 6385
-      :fsize 6390
-      :lastmodtime '(21488 21020 0 0)
+      :pointmax 6366
+      :fsize 6371
+      :lastmodtime '(21488 22083 0 0)
       :unmatched-syntax nil))
   :file "!Volumes!Legacy!Dropbox!dot-files!emacs!semantic.cache"
   :semantic-tag-version "2.0"
