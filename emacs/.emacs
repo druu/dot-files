@@ -20,6 +20,26 @@
   (exec-path-from-shell-initialize))
 
 
+;; Colors, Fonts, Window
+
+;; MAXIMIZE
+(require 'maxframe)
+(add-hook 'window-setup-hook 'maximize-frame t)
+
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(require 'color-theme)
+    ;; set default color theme
+    (color-theme-deep-blue)
+
+;;(set-face-attribute 'default nil :family "Source Code Pro Light" :height 120)
+(setq mac-allow-anti-aliasing t)
+(set-face-attribute 'default nil 
+                    ;; :foundry "apple"
+                    :family "M+ 2m"
+                    :height 120)
+
+
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -34,20 +54,18 @@
  '(global-font-lock-mode t nil (font-lock))
  '(tool-bar-mode nil))
 
-;;(set-face-attribute 'default nil :family "Source Code Pro Light" :height 120)
-(set-face-attribute 'default nil :family "PragmataPro" :height 120)
+
 
 ;; pc selection mode (shift-cursor)
 (delete-selection-mode)
 
 ;; own keyboard shortcuts
 (when (eq system-type 'darwin)             ;; mac only
-  (setq mac-option-modifier nil)          ;; left option  == alt
+  (setq mac-option-modifier nil)           ;; left option  == alt
   (setq mac-right-option-modifier 'meta)   ;; right option == meta
+  (global-set-key (kbd "C-s-<left>") 'previous-multiframe-window)
+  (global-set-key (kbd "C-s-<right>") 'next-multiframe-window)
 )
-
-
-
 
 
 (global-set-key (kbd "M-r") 'replace-string)
@@ -101,6 +119,14 @@
 
 ;(add-hook 'after-save-hook 'autocompile)
 
+;; Reload config on save
+(defun druu_reload_conf_on_save nil
+  "reloading configuration..."
+  (interactive)
+  (load-file "~/.emacs")
+)
+(add-hook 'after-save-hook 'druu_reload_conf_on_save)
+
 
 ;; some hooks
 (setq auto-mode-alist (cons '("\\.html$" . html-helper-mode)  auto-mode-alist))
@@ -131,10 +157,18 @@
 
 ;; set up unicode
 (require 'un-define "un-define" t)
-(set-buffer-file-coding-system 'utf-8 'utf-8-unix)
-(set-default buffer-file-coding-system 'utf-8-unix)
-(set-default-coding-systems 'utf-8-unix)
-(prefer-coding-system 'utf-8-unix)
+;; (set-buffer-file-coding-system 'utf-8 'utf-8-unix)
+;; (set-default buffer-file-coding-system 'utf-8-unix)
+;; (set-default-coding-systems 'utf-8-unix)
+;; (prefer-coding-system 'utf-8-unix)
+(prefer-coding-system       'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+;; This from a japanese individual.  I hope it works.
+(setq default-buffer-file-coding-system 'utf-8)
+;; From Emacs wiki
+(setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
 
 
 (require 'magit)
@@ -143,11 +177,6 @@
 
 ;; flycheck yay
 ;; (add-hook 'after-init-hook #'global-flycheck-mode)
-
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(require 'color-theme)
-    ;; set default color theme
-    (color-theme-deep-blue)
 
 
 ;; Line Numbers
@@ -170,13 +199,9 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
-;; MAXIMIZE
-(require 'maxframe)
-(add-hook 'window-setup-hook 'maximize-frame t)
-
 
 ;; ECB
-(require 'cedet)
+;;(require 'cedet)
 (require 'ecb)
 
 (setq ecb-tip-of-the-day nil)   ;; disable tip of the day
@@ -186,20 +211,15 @@
 ;; Multiple Cursors
 (require 'multiple-cursors)
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "S-s-<down>") 'mc/mark-next-like-this)
+(global-set-key (kbd "S-s-<up>") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+
 
 ;; Semantics
 (semantic-mode 1)
 
+
+
 ;;; .emacs ends here
-
-
-
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
